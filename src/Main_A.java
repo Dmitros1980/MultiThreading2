@@ -6,7 +6,7 @@ public class Main_A {
     final static int routeLengtn = 100;
     public static final Map<Integer, Integer> sizeToFreq = new HashMap<>();
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws  InterruptedException {
         List<Thread> threadList = new ArrayList<>();
         Thread print = new Thread(() -> {
             while (!Thread.interrupted()) {
