@@ -28,7 +28,7 @@ public class Main_A {
             thread.start();
         }
 
-        print.interrupt();
+        print.join();
     }
 
 
