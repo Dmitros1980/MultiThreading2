@@ -26,7 +26,6 @@ public class Main_A {
         }
         for (Thread thread : threadList) {
             thread.start();
-            thread.join();
         }
 
         print.interrupt();
